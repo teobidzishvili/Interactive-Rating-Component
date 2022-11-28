@@ -22,19 +22,32 @@
   <div class="container">
     <div class="card bg-secondary" style="margin: 15% 32%">
       <div class="container p-5">
-        <img src="./images/icon-star.svg" alt="star icon" class="img-fluid bg-dark rounded-circle p-4">
-        <h1 class="text-light mt-4">how did we do?</h1>
-        <p class="text-light" style="font-size: 15px;">Please let us know how we did with your support<br>request.All feedback is appreciated to help us improve our offering!</p>
-        <div class="form-group d-flex justify-content-between row">
-          <button type="button" class="button rounded-circle p-3 col-2 text-light border-0">1</button>
-          <button type="button" class="button rounded-circle p-3 col-2 text-light border-0">2</button>
-          <button type="button" class="button rounded-circle p-3 col-2 text-light border-0">3</button>
-          <button type="button" class="button rounded-circle p-3 col-2 text-light border-0">4</button>
-          <button type="button" class="button rounded-circle p-3 col-2 text-light border-0">5</button>
-          <form action="./index_page2.html" type="submit" class="mt-4 bg-warning rounded-pill py-2 text-center">
-            <button type="submit" class="bg-warning border-0 text-light" id="submit">Submit</button>
-          </form>
-        </div>
+
+        <img src="./images/icon-star.svg" alt="star icon" class="img-fluid bg-dark rounded-circle p-4" id="img1">
+        <img src="./images/illustration-thank-you.svg" alt="thank you illustration" class="img-fluid p-4 d-none mx-5 p-5" id="img2">
+
+        <h1 class="text-light mt-4" id="title1">how did we do?</h1>
+        <div class="rounded-pill bg-dark text-warning py-2 mx-5 text-center d-none" id="result">You selected <span id="resultN"></span> out of 5</div>
+        <h1 class="text-light mt-4 d-none text-center" id="title2">Thank you!</h1>
+
+        <p class="text-light" style="font-size: 15px;" id="text1">Please let us know how we did with your support<br>request. All feedback is appreciated to help us improve our offering!</p>
+        
+        <fieldset class="justify-content-between row" id="rating-buttons">
+          <label class="btn button rounded-circle p-3 col-2 text-light border-0" for="button1" value="1">1</label>
+          <input class="btn-check" type="radio" id="button1">
+          <label class="btn button rounded-circle p-3 col-2 text-light border-0" for="button2" value="2">2</label>
+          <input class="btn-check" type="radio" id="button2">
+          <label class="btn button rounded-circle p-3 col-2 text-light border-0" for="button3" value="3">3</label>
+          <input class="btn-check" type="radio" id="button3">
+          <label class="btn button rounded-circle p-3 col-2 text-light border-0" for="button4" value="4">4</label>
+          <input class="btn-check" type="radio" id="button4">
+          <label class="btn button rounded-circle p-3 col-2 text-light border-0" for="button5" value="5">5</label>
+          <input class="btn-check" type="radio" id="button5">
+
+          <input type="button" value="Submit" id="submit" class="mt-4 p-1 rounded bg-warning border-0">
+        </fieldset>        
+        <p class="text-light d-none text-center" style="font-size: 15px;" id="text2">We appreciate you taking the time to give the rating. If you ever need more support, don't hesitate to get in touch!</p>
+
       </div>
     </div>
   </div>
