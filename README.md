@@ -44,7 +44,7 @@ Users are able to:
 ## Author
 
 - Frontend Mentor - [@teobidzishvili](https://www.frontendmentor.io/profile/teobidzishvili)
-- LinkedIn - [@yourusername](https://www.linkedin.com/in/teona-bidzishvili/)
+- LinkedIn - [@Teona Bidzishvili](https://www.linkedin.com/in/teona-bidzishvili/)
 
 ## Acknowledgments
 
